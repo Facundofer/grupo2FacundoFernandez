@@ -10,5 +10,9 @@ Curso de Programación 2, Universidad Nacional de Lujan
 ## N° de grupo: 01
 ## Alumnos:
 
-Apellido y Nombre // Legajo // Mails
+Fernandez Facundo //  190174 // Mails
+Diaz Alan // 190173 // Mails
+Capdevila Joaquin //  195288 // Mails
+Ortiz Rocio Melany //  195337 // Mails
+Meza Amarilla Braian Hernan // 195219 // Mails
 
