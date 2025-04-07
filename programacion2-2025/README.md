@@ -7,7 +7,7 @@ Curso de Programación 2, Universidad Nacional de Lujan
 ##### Perello Mario – Profesor Adjunto
 ##### Racker José – Ayudante de 1era
 ##### Reinaudi Claudia – Ayudante de 1era
-## N° de grupo: 01
+## N° de grupo: 02
 ## Alumnos:
 
 Fernandez Facundo //  190174 // facundo.fernandezfn@gmail.com
