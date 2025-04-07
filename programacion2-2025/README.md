@@ -10,13 +10,13 @@ Curso de Programación 2, Universidad Nacional de Lujan
 ## N° de grupo: 01
 ## Alumnos:
 
-Fernandez Facundo //  190174 // Mails
+Fernandez Facundo //  190174 // facundo.fernandezfn@gmail.com
 
-Diaz Alan // 190173 // Mails
+Diaz Alan // 190173 // díazalan99@gmail.com
 
-Capdevila Joaquin //  195288 // Mails
+Capdevila Joaquin //  195288 // joaquincapdevila2308@gmail.com
 
-Ortiz Rocio Melany //  195337 // Mails
+Ortiz Rocio Melany //  195337 // meluubari@gmail.com
 
-Meza Amarilla Braian Hernan // 195219 // Mails
+Meza Amarilla Braian Hernan // 195219 // braiancj17@gmail.com
 
