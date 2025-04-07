@@ -11,8 +11,12 @@ Curso de Programación 2, Universidad Nacional de Lujan
 ## Alumnos:
 
 Fernandez Facundo // 190174 // Mails
+
 Diaz Alan // 190173 // Mails
+
 Capocdevila Joaquin // 195288 // Mails
+
 Ortiz Rio Melany // 195337 // Mails
+
 Meza Amarilla Braian Hernan // 195219 // Mails
 
