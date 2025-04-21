@@ -62,7 +62,7 @@ void main(){
                 printf("e) Valor Minimo en ambas listas y su posicion: \t");
                 Minimo = valorMinimo(lista1, lista2);
                 printf("Minimo Lista 1: %d en la posicion: %d\n", Minimo.valor, Minimo.pos);
-                printf("\t\t\t\tMinimo Lista 2: %d en la posicion: %d\n", Minimo.valor_2, Minimo.pos_2);
+                printf("\t\t\t\t\tMinimo Lista 2: %d en la posicion: %d\n", Minimo.valor_2, Minimo.pos_2);
                 l_vaciar(aux);
                 l_vaciar(lista1);
                 l_vaciar(lista2);
