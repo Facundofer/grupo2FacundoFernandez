@@ -37,16 +37,16 @@ void main(){
                 if (l_es_vacia(aux))
                 {
                     printf("Se repiten todos los valores.\n");
-                }
-                l_mostrar(aux);
+                }else l_mostrar(aux);
+                
                 l_vaciar(aux);
                 aux = verElementosQueNoSeRepiten(lista2, lista1);
                 printf("b) \n");
                 if (l_es_vacia(aux))
                 {
                     printf("Se repiten todos los valores.\n");
-                }
-                l_mostrar(aux);
+                }else l_mostrar(aux);
+                
                 l_vaciar(aux);
                 printf("c) \n");
                 aux = verElementosRepetidos(lista1, lista2);
@@ -130,6 +130,11 @@ void main(){
                     y = validarReales();
                     printf("Ingresar valor de salto entre los valores.\n");
                     sumando = validarReales();
+                    while (sumando < 0)
+                    {
+                        printf("Opcion invalida el salto no puede ser negativo.");
+                        sumando = validarReales();
+                    }
                     hacerPolinomio(lista1);
                     lista2 = calcularRango(lista1,  x,  y, sumando);
                     ite = iterador(lista2);
