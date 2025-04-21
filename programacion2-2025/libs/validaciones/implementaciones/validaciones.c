@@ -7,16 +7,6 @@
 #define MAX 100
 
 
-//validar las entradas del tipo ejercicio a utilizar.   listo
-//validar entrada si quiero continuar probando o no.    listo
-//no podemos espacios, caracteres                       listo
-//hay que liberar las listas.                           listo
-
-//solo valores int ejercicio 2, 3, 4, 6                 listo
-//valores reales ejercio 5
-//ejerercicio 4 tienen que tener el mismo tamaño
-//ejercicio 3 lista 1  no puede tener 0;
-
 void l_vaciar(Lista lista) {
     while (!l_es_vacia(lista)) {
         l_eliminar(lista, 1);  
