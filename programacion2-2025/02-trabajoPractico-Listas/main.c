@@ -32,7 +32,7 @@ void main(){
                 printf("Lista 1 cargada, cargar lista 2.\n");
                 tamano = validartamanolist();
                 lista2 = rellenarLista(tamano);
-                printf("a) \n");
+                printf("a) Vlores No repetido Lista 1 en Lista 2: \t");
                 aux = verElementosQueNoSeRepiten(lista1, lista2);
                 if (l_es_vacia(aux))
                 {
@@ -41,25 +41,28 @@ void main(){
                 
                 l_vaciar(aux);
                 aux = verElementosQueNoSeRepiten(lista2, lista1);
-                printf("b) \n");
+                printf("b) Vlores No repetido Lista 2 en Lista 1: \t");
                 if (l_es_vacia(aux))
                 {
                     printf("Se repiten todos los valores.\n");
                 }else l_mostrar(aux);
                 
                 l_vaciar(aux);
-                printf("c) \n");
+                printf("c) Valores repetidos en ambas listas: \t");
                 aux = verElementosRepetidos(lista1, lista2);
-                l_mostrar(aux);
-                printf("d) \n");
+                if (l_es_vacia(aux))
+                {
+                    printf("No se repiten los valores.\n");
+                }else l_mostrar(aux);
+                printf("d) Promedios ambas listas: \t");
                 prom = promedio(lista1);
                 printf("Promedio Lista 1: %f\n", prom); 
                 prom = promedio(lista2);
-                printf("Promedio Lista 2: %f\n", prom);
-                printf("e) \n");
+                printf("\t\t\t\tPromedio Lista 2: %f\n", prom);
+                printf("e) Valor Minimo en ambas listas y su posicion: \t");
                 Minimo = valorMinimo(lista1, lista2);
                 printf("Minimo Lista 1: %d en la posicion: %d\n", Minimo.valor, Minimo.pos);
-                printf("Minimo Lista 2: %d en la posicion: %d\n", Minimo.valor_2, Minimo.pos_2);
+                printf("\t\t\t\tMinimo Lista 2: %d en la posicion: %d\n", Minimo.valor_2, Minimo.pos_2);
                 l_vaciar(aux);
                 l_vaciar(lista1);
                 l_vaciar(lista2);
