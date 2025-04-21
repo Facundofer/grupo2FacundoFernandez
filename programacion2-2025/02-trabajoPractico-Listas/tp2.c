@@ -215,9 +215,12 @@ void hacerPolinomio(Lista list){
     fgets(auxiliar, MAX, stdin);
     auxiliar[strcspn(auxiliar, "\n")] = '\0';
     tamano = validar_entero(auxiliar);
-    while (tamano <= 0)
+    while (tamano < 1)
     {
-        printf("El grado del polinomio no puede ser 0 o menor. Ingrese uno correcto.");
+        printf("El grado del polinomio no puede ser 0 o menor. Ingrese uno correcto.\n");
+        printf("Ingrese el grado del polinomio: ");
+        fgets(auxiliar, MAX, stdin);
+        auxiliar[strcspn(auxiliar, "\n")] = '\0';
         tamano = validar_entero(auxiliar);
     }
     

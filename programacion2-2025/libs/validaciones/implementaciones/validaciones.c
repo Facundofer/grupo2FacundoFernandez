@@ -126,9 +126,9 @@ int validartamanolist(){
     fgets(auxiliar, MAX, stdin);
     auxiliar[strcspn(auxiliar, "\n")] = '\0';
     ejercicio = validar_entero(auxiliar);
-    while (ejercicio <=0 && ejercicio >=100)
+    while (ejercicio <1 || ejercicio >=100)
     {
-        printf("Opcion invalida. Debe ingresar un valor del 0 al 100: ");
+        printf("Opcion invalida. Debe ingresar un valor del 1 al 100: ");
         fgets(auxiliar, MAX, stdin);
         auxiliar[strcspn(auxiliar, "\n")] = '\0';
         ejercicio = validar_entero(auxiliar);
