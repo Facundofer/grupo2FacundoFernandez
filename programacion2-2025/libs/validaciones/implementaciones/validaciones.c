@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "..\..\tipoElemento\headers\tipo_elemento.h"
-#include "..\..\..\libs\listas\headers\listas.h"
-#include "..\..\pilas\headers\pilas.h"
 #include "..\..\validaciones\headers\validaciones.h"
 #define MAX 100
 
@@ -13,6 +10,7 @@ void l_vaciar(Lista lista) {
         l_eliminar(lista, 1);  
     }
 }
+
 bool esEntero(double valor) {
     return valor == (double)(long)valor;
 }
@@ -202,3 +200,61 @@ void vaciarpila(Pila pila){
     return;
 }
 
+
+void intercambiar(Cola auxiliar, Cola original){
+    Cola cola_aux = c_crear();
+    TipoElemento te, aux;
+    while(!c_es_vacia(auxiliar)){
+        te = c_desencolar(auxiliar);
+        aux = te_crear(te->clave);
+        c_encolar(original, aux);
+    }
+}
+
+Cola c_cargar(Cola cola){
+    int tamanio, num;
+    TipoElemento valor;
+    printf("Ingrese el tamanio.\n");
+    tamanio = validarentradaentero();
+    while(tamanio > 10 || tamanio < 0){
+        printf("El tamanio debe ser >= 0 y < 10.\n");
+        tamanio = validarentradaentero();
+    }
+    printf("Ingresando valores.\n");
+    for(int i = 0; i < tamanio; i++){
+        printf("Ingrese elemento %d\n ", i+1);
+        num = validarentradaentero();
+        valor = te_crear(num);
+        c_encolar(cola, valor);
+    }
+    return cola;
+}
+
+Cola c_cargar_positivos(Cola cola){
+    int tamanio, num;
+    TipoElemento valor;
+    printf("Ingrese el tamanio.\n");
+    tamanio = validarentradaentero();
+    while(tamanio > 10 || tamanio < 0){
+        printf("El tamanio debe ser >= 0 y < 10.\n");
+        tamanio = validarentradaentero();
+    }
+    printf("Ingresando valores.\n");
+    for(int i = 0; i < tamanio; i++){
+        printf("Ingrese elemento %d\n ", i+1);
+        num = validarentradaentero();
+        valor = te_crear(num);
+        c_encolar(cola, valor);
+    }
+    return cola;
+}
+
+
+void vaciarcola(Cola cola){
+    TipoElemento te;
+    while (!c_es_vacia(cola))
+    {
+        te = c_desencolar(cola);
+    }
+    return;
+}
