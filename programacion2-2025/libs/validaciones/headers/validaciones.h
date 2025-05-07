@@ -1,5 +1,6 @@
 #include <stdbool.h>
 #include "..\..\pilas\headers\pilas.h"
+#include "..\..\..\libs\colas\headers\colas.h"
 #include "..\..\..\libs\listas\headers\listas.h"
 
 void l_vaciar(Lista lista);
@@ -31,3 +32,11 @@ int validartamanopila();
 int validarentradaentero();
 
 void vaciarpila(Pila pila);
+
+void intercambiar(Cola auxiliar, Cola original);
+
+Cola c_cargar(Cola cola);
+
+Cola c_cargar_positivos(Cola cola);
+
+void vaciarcola(Cola cola);
