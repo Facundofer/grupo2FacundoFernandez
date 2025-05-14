@@ -14,6 +14,10 @@ Fernandez Facundo //  190174 // facundo.fernandezfn@gmail.com
 
 Diaz Alan // 190173 // díazalan99@gmail.com
 
+Lopez Nayla  //  195207 // naylaflor01@gmail.com
+
+Alexandre Wanda Stephanie // 205497 // Wandaalexandre05@gmail.com 
+
 Capdevila Joaquin //  195288 // joaquincapdevila2308@gmail.com
 
 Ortiz Rocio Melany //  195337 // meluubari@gmail.com
